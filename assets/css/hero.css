@@ -397,7 +397,10 @@ textarea.input-field {
 }
 
 
-.top1{ background-color: #3182ce; }
+.top1{ 
+  margin-bottom: 2rem;
+  background-color: #3182ce;
+ }
 
 .top1.active {
   cursor: not-allowed;

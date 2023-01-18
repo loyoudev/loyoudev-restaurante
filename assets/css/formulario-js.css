@@ -1,4 +1,16 @@
 .input-field.active{
+    border: 1px solid red; 
+}
+
+#enviar-mail {
+ display: none;
+}
+
+#enviar-mail.active {
+    display: block;
     border: 1px solid red;
-    
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: red;
 }

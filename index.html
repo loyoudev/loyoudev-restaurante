@@ -726,7 +726,7 @@
 
           <div class="form reservation-form bg-black-10">
 
-            <form action="" class="form-left">
+            <form  action="" class="form-left">
 
               <h2 class="headline-1 text-center">Reservacion Online</h2>
 
@@ -807,8 +807,11 @@
 
                   <span class="text text-2" aria-hidden="true">RESETEAR FORMULARIO</span>
                 </button>
-            </div>
+              </div>
 
+              <p id="enviar-mail" class="error">
+                Todos los campos son obligatorios
+              </p>
             </form>
 
             <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
@@ -981,7 +984,7 @@
             <div class="icon-wrapper">
               <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
 
-              <input type="email" name="email_address" placeholder="tu email" autocomplete="off" class="input-field">
+              <input id="suscribete" type="email" name="email_address" placeholder="tu email" autocomplete="off" class="input-field">
             </div>
 
             <button type="submit" class="btn btn-secondary">
