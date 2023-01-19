@@ -2,6 +2,11 @@
     border: 1px solid red; 
 }
 
+.input-field.correct{
+    border: 2px solid rgb(10, 194, 25); 
+}
+
+
 #enviar-mail {
  display: none;
 }

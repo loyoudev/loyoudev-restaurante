@@ -736,7 +736,7 @@
               </p>
 
               <div class="input-wrapper">
-                <input id="nombre" type="text" name="name" placeholder="Tu nombre" autocomplete="off" class="input-field">
+                <input id="nombre" type="email" name="name" placeholder="Tu email" autocomplete="off" class="input-field">
 
                 <input id="telefono" type="tel" name="phone" placeholder="Numero celular" autocomplete="off" class="input-field">
               </div>
@@ -795,23 +795,31 @@
 
               <textarea id="mensaje" name="message" placeholder="Mensaje" autocomplete="off" class="input-field"></textarea>
 
+              <div  id="spinner">
+                <div class="sk-chase">
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                    <div class="sk-chase-dot"></div>
+                </div>
+              </div>
+
               <div class="flex">
                 <button id="enviar" type="submit" class="btn btn-secondary top1 ">
                   <span class="text text-1">Reservar una mesa</span>
 
-                  <span class="text text-2" aria-hidden="true">Reservar una mesa</span>
                 </button>
 
                 <button id="resetBtn" type="submit" class="btn btn-secondary top">
                   <span class="text text-1">RESETEAR FORMULARIO</span>
 
-                  <span class="text text-2" aria-hidden="true">RESETEAR FORMULARIO</span>
+                 
                 </button>
               </div>
 
-              <p id="enviar-mail" class="error">
-                Todos los campos son obligatorios
-              </p>
+              <p id="enviar-mail" class="error correct"></p>
             </form>
 
             <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
